@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Sanghun Kim">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanghun Kim</title>
+    <style>
+        body {
+            background-image: url('your-background-image.jpg');
+            /* Add the path to your background image */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .skill {
+            margin: 20px;
+            text-align: center;
+            width: 200px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .skill img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        .skill-name {
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .flag-icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconify/icons-logos@2.1.5/icons.css">
+</head>
+
+<body>
+    <section id="skills">
+        <h2>Programming Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <span class="iconify skill-icon" data-icon="logos:python"></span>
+                <div class="skill-name">Python</div>
+            </div>
+            <div class="skill">
+                <span class="iconify skill-icon" data-icon="logos:java"></span>
+                <div class="skill-name">Java</div>
+            </div>
+            <div class="skill">
+                <span class="iconify skill-icon" data-icon="logos:pandas"></span>
+                <div class="skill-name">Pandas</div>
+            </div>
+            <div class="skill">
+                <span class="iconify skill-icon" data-icon="logos:html-5"></span>
+                <div class="skill-name">HTML</div>
+            </div>
+            <div class="skill">
+                <span class="iconify skill-icon" data-icon="logos:css-3"></span>
+                <div class="skill-name">CSS</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="languages">
+        <h2>Languages</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img class="skill-icon flag-icon"
+                    src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/kr.svg" alt="Korean Flag">
+                <div class="skill-name">Korean</div>
+            </div>
+            <div class="skill">
+                <img class="skill-icon flag-icon"
+                    src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/us.svg"
+                    alt="United States Flag">
+                <div class="skill-name">English</div>
+            </div>
+            <div class="skill">
+                <img class="skill-icon flag-icon"
+                    src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/cn.svg"
+                    alt="Chinese Flag">
+                <div class="skill-name">Chinese</div>
+            </div>
+            <div class="skill">
+                <img class="skill-icon flag-icon"
+                    src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/flags/4x3/fr.svg" alt="French Flag">
+                <div class="skill-name">French</div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="instruments">
+        <h2>Instruments</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <span class="iconify skill-icon" data-icon="emojione-v1:violin"></span>
+                <div class="skill-name">Violin</div>
+            </div>
+            <div class="skill">
+                <span class="iconify skill-icon" data-icon="emojione-v1:musical-keyboard"></span>
+                <div class="skill-name">Piano</div>
+            </div>
+            <div class="skill">
+                <span class="iconify skill-icon" data-icon="emojione-v1:violin"></span>
+                <div class="skill-name">Cello</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+</body>
+
+</html>
